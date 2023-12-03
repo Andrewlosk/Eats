@@ -1,0 +1,15 @@
+.footer {
+    padding: 114px 0 58px 0;
+  &__desk {
+    color: var(--second-text, #5c5c5c);
+    text-align: right;
+
+    /* Subtitle */
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 150% */
+    letter-spacing: 0.1px;
+  }
+}

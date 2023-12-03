@@ -1,0 +1,57 @@
+.order {
+  background-image: url(../img/background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 147px 0 133px 0;
+  &__title {
+    color: var(--Light-text, #fff);
+    text-align: center;
+
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 142.5% */
+    letter-spacing: 0.2px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  &__desk {
+    color: #fff;
+    text-align: center;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+    margin-bottom: 61px;
+  }
+  &__btn{
+    color: var(--Light-text, #fff);
+
+    /* Button */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    letter-spacing: 0.2px;
+    padding: 0;
+    padding: 16px 0;
+    width: 142px;
+    text-align: center;
+    border-radius: 10px;
+    background: none;
+
+  }
+  &__btn--first{
+    border: none;
+    background-color: #FA4A0C;
+  }
+  &__btn--second{
+    width: 173px;
+    border: 1px solid var(--Light-background, #FFF);
+  }
+}

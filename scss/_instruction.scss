@@ -1,0 +1,57 @@
+.instruction {
+  &__title {
+    
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 81.818% */
+    letter-spacing: 0.1px;
+    margin: 0;
+    margin: 56px 0 70px 0;
+  }
+
+  &__blocksubtitle {
+    color: #fa4a0c;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+  }
+  &__blocktitle {
+    color: var(--text, #252b42);
+
+    /* H2 */
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px; /* 142.5% */
+    letter-spacing: 0.2px;
+  }
+  &__desk {
+    color: var(--second-text, #737373);
+
+    /* H4 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+  }
+  &__img{
+    width: 250px;
+    height: 506px;
+  }
+  &__block{
+    margin-bottom: 108px;
+  }
+  &__block2{
+    margin-bottom: 184px;
+  }
+}

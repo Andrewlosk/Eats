@@ -1,0 +1,71 @@
+.hero {
+  margin-top: 155px;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0 162px 0;
+  &__subtitle {
+    color: #f6f6f6;
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    margin: 0;
+    margin-bottom: 10px;
+    
+  }
+  &__title {
+    color: #fff;
+    margin: 0;
+
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 137.931% */
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+  }
+  &__subtitle2 {
+    color: #f6f6f6;
+
+    /* H4 */
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+    margin-bottom: 50px;
+  }
+  &__btn {
+    color: var(--Light-text, #fff);
+
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.1px;
+    padding: 0;
+    padding: 16px 0;
+    width: 236px;
+    text-align: center;
+    border-radius: 30px;
+    background: none;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+  }
+  &__btn--first {
+    border: none;
+ 
+    background: #FA4A0C;
+
+  }
+  &__btn--second{
+    border: 1px solid #FFF;
+  }
+
+}
